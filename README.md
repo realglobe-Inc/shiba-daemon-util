@@ -77,13 +77,36 @@ Usage
 const shibaDaemonUtil = require('shiba-daemon-util')
 
 async function tryExample () {
+  const example01 = subjectFromFile(
+    'jp.realglobe.shiba.daemon.util.example01'
+  )
 
+  await example01.sayHi()
 }
 
 tryExample().catch((err) => console.error(err))
 
 ```
 
+
+**jp.realglobe.shiba.daemon.util.example01**
+```bash
+#!/bin/bash
+#
+
+verb=$1
+object1=$2
+object2=$3
+
+if [[ ${verb} == *"sayHi"* ]]
+then
+  echo "Hi, ${object1} and ${object2}"
+  exit
+fi
+
+echo "Unknown verb ${verb}"
+exit 1
+```
 
 <!-- Section from "doc/guides/02.Usage.md.hbs" End -->
 

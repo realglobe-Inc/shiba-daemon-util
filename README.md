@@ -117,9 +117,7 @@ exit 1
 API Guide
 -----
 
-+ [shiba-daemon-util@1.0.0](./doc/api/api.md)
-  + [create(args)](./doc/api/api.md#shiba-daemon-util-function-create)
-  + [ShibaDaemonUtil](./doc/api/api.md#shiba-daemon-util-class)
++ [shiba-daemon-util@1.0.1](./doc/api/api.md)
 
 
 <!-- Section from "doc/guides/10.API Guide.md.hbs" End -->

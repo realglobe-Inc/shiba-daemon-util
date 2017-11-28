@@ -1,0 +1,110 @@
+{
+    "functions": [
+        {
+            "name": "create",
+            "access": "",
+            "virtual": false,
+            "description": "Create a ShibaDaemonUtil instance",
+            "parameters": [
+                {
+                    "name": "args",
+                    "type": "*",
+                    "description": "",
+                    "default": "",
+                    "optional": "",
+                    "nullable": ""
+                }
+            ],
+            "examples": [],
+            "returns": {
+                "type": "ShibaDaemonUtil",
+                "description": ""
+            }
+        },
+        {
+            "name": "subjectFor",
+            "access": "",
+            "virtual": false,
+            "description": "Define subject for",
+            "parameters": [
+                {
+                    "name": "filename",
+                    "type": "string",
+                    "description": "",
+                    "default": "",
+                    "optional": "",
+                    "nullable": ""
+                }
+            ],
+            "examples": []
+        },
+        {
+            "name": "create",
+            "access": "",
+            "virtual": false,
+            "description": "Create a ShibaDaemonUtil instance",
+            "parameters": [
+                {
+                    "name": "args",
+                    "type": "*",
+                    "description": "",
+                    "default": "",
+                    "optional": "",
+                    "nullable": ""
+                }
+            ],
+            "examples": [],
+            "returns": {
+                "type": "ShibaDaemonUtil",
+                "description": ""
+            }
+        },
+        {
+            "name": "subjectFor",
+            "access": "",
+            "virtual": false,
+            "description": "Define subject for",
+            "parameters": [
+                {
+                    "name": "filename",
+                    "type": "string",
+                    "description": "",
+                    "default": "",
+                    "optional": "",
+                    "nullable": ""
+                }
+            ],
+            "examples": []
+        }
+    ],
+    "classes": [
+        {
+            "name": "ShibaDaemonUtil",
+            "description": "",
+            "extends": [],
+            "access": "",
+            "virtual": false,
+            "fires": "",
+            "constructor": {
+                "name": "ShibaDaemonUtil",
+                "description": "",
+                "parameters": [],
+                "examples": []
+            }
+        },
+        {
+            "name": "ShibaDaemonUtil",
+            "description": "",
+            "extends": [],
+            "access": "",
+            "virtual": false,
+            "fires": "",
+            "constructor": {
+                "name": "ShibaDaemonUtil",
+                "description": "",
+                "parameters": [],
+                "examples": []
+            }
+        }
+    ]
+}

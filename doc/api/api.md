@@ -1,51 +1,33 @@
-# shiba-daemon-util@1.0.0
+# shiba-daemon-util@1.0.1
 
 Daemon utility for shiba(v/w)
 
 + Functions
-  + [create(args)](#shiba-daemon-util-function-create)
-  + [subjectFor(filename)](#shiba-daemon-util-function-subject-for)
-+ [`ShibaDaemonUtil`](#shiba-daemon-util-classes) Class
-  + [new ShibaDaemonUtil()](#shiba-daemon-util-classes-shiba-daemon-util-constructor)
+  + [subjectFor(filename, options)](#shiba-daemon-util-function-subject-for)
+  + [parseJSON(str)](#shiba-daemon-util-function-parse-j-s-o-n)
 
 ## Functions
 
-<a class='md-heading-link' name="shiba-daemon-util-function-create" ></a>
-
-### create(args) -> `ShibaDaemonUtil`
-
-Create a ShibaDaemonUtil instance
-
-| Param | Type | Description |
-| ----- | --- | -------- |
-| args | * |  |
-
 <a class='md-heading-link' name="shiba-daemon-util-function-subject-for" ></a>
 
-### subjectFor(filename)
+### subjectFor(filename, options) -> `Object`
 
 Define subject for
 
 | Param | Type | Description |
 | ----- | --- | -------- |
-| filename | string |  |
+| filename | string | Filename to daemonize |
+| options | Object |  |
+
+<a class='md-heading-link' name="shiba-daemon-util-function-parse-j-s-o-n" ></a>
+
+### parseJSON(str) -> `*`
 
 
 
-<a class='md-heading-link' name="shiba-daemon-util-classes"></a>
-
-## `ShibaDaemonUtil` Class
-
-
-
-
-
-
-<a class='md-heading-link' name="shiba-daemon-util-classes-shiba-daemon-util-constructor" ></a>
-
-### new ShibaDaemonUtil()
-
-Constructor of ShibaDaemonUtil class
+| Param | Type | Description |
+| ----- | --- | -------- |
+| str | string |  |
 
 
 

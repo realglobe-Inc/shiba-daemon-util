@@ -1,6 +1,6 @@
 {
   "name": "shiba-daemon-util",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Daemon utility for shiba(v/w)",
   "main": "lib",
   "browser": "shim",

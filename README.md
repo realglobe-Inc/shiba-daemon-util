@@ -117,7 +117,7 @@ exit 1
 API Guide
 -----
 
-+ [shiba-daemon-util@1.0.1](./doc/api/api.md)
++ [shiba-daemon-util@1.0.2](./doc/api/api.md)
 
 
 <!-- Section from "doc/guides/10.API Guide.md.hbs" End -->
@@ -142,8 +142,12 @@ This software is released under the [MIT License](https://github.com/realglobe-I
 Links
 ------
 
-+ [THE Labo][t_h_e_labo_url]
++ [v][v_url]
++ [w][w_url]
++ [Realglobe, Inc.][realglobe,_inc__url]
 
-[t_h_e_labo_url]: https://github.com/the-labo
+[v_url]: https://github.com/realglobe-Inc/v
+[w_url]: https://github.com/realglobe-Inc/w
+[realglobe,_inc__url]: http://realglobe.jp
 
 <!-- Links End -->

@@ -1,6 +1,6 @@
 'use strict'
 
-const shibaDaemonUtil = require('shiba-daemon-util')
+const {subjectFromFile} = require('shiba-daemon-util')
 
 async function tryExample () {
   const example01 = subjectFromFile(

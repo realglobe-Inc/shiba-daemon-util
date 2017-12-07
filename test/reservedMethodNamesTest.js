@@ -5,7 +5,7 @@
 'use strict'
 
 const reservedMethodNames = require('../lib/constants/reservedMethodNames')
-const { ok, equal } = require('assert')
+const {ok, equal} = require('assert')
 
 describe('reserved-method-names', () => {
   before(() => {
@@ -15,7 +15,9 @@ describe('reserved-method-names', () => {
   })
 
   it('Do test', () => {
-
+    for (const reservedMethodName of reservedMethodNames) {
+      ok(reservedMethodName)
+    }
   })
 })
 

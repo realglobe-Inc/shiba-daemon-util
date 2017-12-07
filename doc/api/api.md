@@ -1,4 +1,4 @@
-# shiba-daemon-util@2.0.0
+# shiba-daemon-util@2.0.1
 
 Daemon utility for shiba(v/w)
 

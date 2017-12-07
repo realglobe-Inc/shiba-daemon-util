@@ -20,7 +20,7 @@ describe('subject-from-file', () => {
     )
     equal(
       await example01.sayHi('hoge'),
-      'Hi, hoge and'
+      'Hi, hoge and '
     )
   })
 })

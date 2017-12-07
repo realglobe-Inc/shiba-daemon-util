@@ -101,7 +101,7 @@ object2=$4
 
 if [[ ${verb} == *"sayHi"* ]]
 then
-  echo "Hi, ${object1} and ${object2}"
+  printf "Hi, ${object1} and ${object2}"
   exit
 fi
 
@@ -118,7 +118,7 @@ exit 1
 API Guide
 -----
 
-+ [shiba-daemon-util@2.0.1](./doc/api/api.md)
++ [shiba-daemon-util@3.0.0](./doc/api/api.md)
 
 
 <!-- Section from "doc/guides/10.API Guide.md.hbs" End -->

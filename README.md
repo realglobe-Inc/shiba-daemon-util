@@ -74,7 +74,7 @@ Usage
 ```javascript
 'use strict'
 
-const shibaDaemonUtil = require('shiba-daemon-util')
+const {subjectFromFile} = require('shiba-daemon-util')
 
 async function tryExample () {
   const example01 = subjectFromFile(
@@ -94,9 +94,10 @@ tryExample().catch((err) => console.error(err))
 #!/bin/bash
 #
 
-verb=$1
-object1=$2
-object2=$3
+subject=$1
+verb=$2
+object1=$3
+object2=$4
 
 if [[ ${verb} == *"sayHi"* ]]
 then
@@ -117,7 +118,7 @@ exit 1
 API Guide
 -----
 
-+ [shiba-daemon-util@1.0.3](./doc/api/api.md)
++ [shiba-daemon-util@2.0.0](./doc/api/api.md)
 
 
 <!-- Section from "doc/guides/10.API Guide.md.hbs" End -->

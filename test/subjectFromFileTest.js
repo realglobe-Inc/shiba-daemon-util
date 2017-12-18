@@ -22,6 +22,7 @@ describe('subject-from-file', () => {
       await example01.sayHi('hoge'),
       'Hi, hoge and '
     )
+
   })
 })
 
